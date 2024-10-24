@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByID</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Learning Javascript</h1>
+
+    <br>
+    <hr>
+
+    <p id="welcome">Welcome to CBC</p>
+    <p id="date">No Date</p>
+
+    <br>
+    <hr>
+
+    <!--MESSY-->
+    <button onclick='document.getElementById("welcome").innerHTML = "Welcome to learning Javascript"'>JS</button>
+    <button onclick='document.getElementById("welcome").innerHTML = "Welcome to CBC"'>CBC</button>
+
+    <br>
+    <hr>
+
+    <!--CLEAN (FUNCTION)-->
+    <button onclick="MyGreetingMsg()">Greetings</button>
+    <button onclick="Return()">Return</button>
+
+    <br>
+    <hr>
+
+    <button onclick="Datebutton2()">Date</button>
+    <p id="date2">No Date</p>
+
+    
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
