@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-buttons{
+    background-color: aqua;
+}
+#btnred{
+    background-color: red;
+    padding: 10px;
+    width: 50px;
+}
+#btnyellow{
+    background-color: yellow;
+    padding: 10px;
+    width: 50px;
+}
+#btngreen{
+    background-color: green;
+    padding: 10px;
+    width: 50px;
+}
+#btnblue{
+    background-color: blue;
+    padding: 10px;
+    width: 50px;
+}
