@@ -1,9 +1,10 @@
 function calculatetotal(){
-    var mortgageCost = document.getElementById("mortgage").value;
-    var insuranceRate = document.getElementById("rate").value;
+    var loanAmnt = document.getElementById("loanAmount").value;
+    var interestRate = document.getElementById("rate").value;
     var monthsRemaining = document.getElementById("months").value;
 
-    var totalAmount = mortgageCost * insuranceRate/100 * monthsRemaining
+    var interest = (loanAmnt * (interestRate * 0.01))/monthsRemaining;
+    var installAmount = loanAmnt / monthsRemaining + interest
 
-    document.getElementById("total").innerHTML = totalAmount.toFixed()
+    document.getElementById("install-amnt").innerHTML = installAmount.toFixed()
 }
