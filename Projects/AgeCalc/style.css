@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#form{
+    background-color: aquamarine;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+button{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+input{
+    margin: 15px;
+}
