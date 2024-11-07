@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.balance-container{
+    margin-top: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+}
+#input-container{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    max-width: 600px;
+}
+label{
+    font-size: 1.1em;
+    color: #333;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #a19c9c;
+}
+button{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+    color: white;
+    font-size: 1.1em;
+}
+#transactionType{
+    margin-top: 10px;
+}
+h3{
+    color: #333;
+    border-bottom: 2px  solid teal;
+    max-width: 600px;
+    margin-top: 20px;
+}
+#statement-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+#statement-table th,
+#statement-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+#statement-table th{
+    background-color: teal;
+    color: white;
+}
+.credit{
+    color: green;
+}
+.debit{
+    color: red;
+}
