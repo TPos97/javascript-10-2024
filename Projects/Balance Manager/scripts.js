@@ -9,7 +9,7 @@ function newStatement(date, type, amount, currentBalance){
     newRow.innerHTML = `
         <td>${date}</td>
         <td>${type}</td>
-        <tdclass="${type === 'Deposit' ? 'credit' : 'debit'}">$${amount.toFixed(2)}</td>
+        <td class="${type === 'Deposit' ? 'credit' : 'debit'}">$${amount.toFixed(2)}</td>
         <td>$${currentBalance.toFixed(2)}</td>`;
 
     tableBody.appendChild(newRow);
