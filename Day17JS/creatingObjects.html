@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <h1>JS Ojbects</h1>
+    <p id="demo"></p>
+
+    <script>
+
+
+//WAYS TO CREATE OBJECTS
+
+    let car = {};
+
+    car.name = ""
+    car.color = ''
+    car.model = ''
+    car.year = 2024
+
+    const honda = car;
+
+        honda.name = "Honda"
+        honda.model = "CRV"
+        honda.color = "white"
+        honda.year = 2024
+
+        document.getElementById("demo").innerHTML = car.name + " is " + car.model + " and the color " + car.color
+        
+
+
+
+
+/*
+    const car = new Object();
+
+    car.type = "Tesla"
+    car.color = "White"
+    car.model = "S-Series"
+    car.year = 2024
+
+
+        //DISPLAYS IN CONSOLE
+        console.log(car.type + " is " + car.model + " and the color " + car.color)
+        //DISPLAYS IN HTML
+        document.getElementById("demo").innerHTML = car.type + " is " + car.model + " and the color " + car.color
+        //USING BRACKET ACCESSOR INSTEAD OF DOT 
+        document.getElementById("demo").innerHTML = car["type"] + " is " + car["model"] + " and the color " + car["color"]
+
+
+    
+    //DISPLAYS DATA FROM OBJECT ON THE SCREEN
+    const person = {
+
+    }
+
+    person.firstName = "Jhon"
+    person.lastName = "Smith"
+    person.eyeColor = "Blue"
+    person.age = "35"
+
+    document.getElementById("demo").innerHTML = 
+    person.firstName + " is " + person.age + " years old "
+
+    
+    
+    
+        //OBJECT BASED CODE
+        let car = {
+            type:"Honda",
+            color:"Red",
+            year:2024,
+            model:"CRV"
+        }
+        console.log(`Name of the car is : ${car.type}`);
+        console.log(`Color of the car is : ${car.color}`);
+        console.log(`Model of the car is : ${car.model}`);
+        console.log(`This ${car.type} was made in : ${car.year}`);
+
+
+        //MAKES NEW CAR OBJECT
+        car = {
+            type:"Tesla",
+            color:"Blue",
+            year:2022,
+            model:"X-Series"
+        }
+        console.log(`Name of the car is : ${car.type}`);
+        console.log(`Color of the car is : ${car.color}`);
+        console.log(`Model of the car is : ${car.model}`);
+        console.log(`This ${car.type} was made in : ${car.year}`);
+
+         MESSY CODE 
+        let car_tesla = "Tesla";
+        let model_tesla = "X-Series";
+        let color_tesla = "White";
+        let year_tesla = 2024;
+
+        let car_gmc = "GMC"
+        let model_gmc = "Sierra"
+        let color_gmc = "Red"
+        let year_gmc = 2024
+        */
+
+    </script>
+</body>
+</html>
