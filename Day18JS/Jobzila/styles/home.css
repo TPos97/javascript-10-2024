@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+nav{
+    background-color: #ff8500;
+    color: white;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p a{
+    color: #f7df04;
+    text-decoration: none;
+}
+#hero{
+    background-image: url("../images/mainPic.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+}
+#hero h2{
+    color: lightblue;
+    margin-bottom: 20px;
+}
+#hero p{
+    color: white;
+    margin-bottom: 20px;
+}
+#hero-section{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 32px;
+}
+/*terms section*/
+#terms1{
+    padding: 10px;
+    margin: 10px;
+}
+#terms1 p{
+    margin-bottom: 10px;
+}
+.terms{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/*terms ending*/
+/*privacy starts*/
+#privacy1{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+#privacy1 h2{
+    margin-bottom: 10px;
+}
+.privacy{
+    margin-bottom: 20px ;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+/*privacy ends*/
+/*joblisting starts*/
+.jobs-listing{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.joblistingsection{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.joblistingsection h2{
+    margin-bottom: 10px;
+}
+/*joblisting ends*/
+/*Contact Us Page Begin*/
+.contact-section{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.contact-section h2{
+margin-bottom: 10px;
+}
+.contact-section{
+    margin-bottom: 20px ;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+.contact-form{
+    padding: 20px; 
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc  ;
+    border-radius: 3px;
+    resize: vertical;
+}
+.contact-form input[type="submit"]{
+    background-color: #333;  
+    color: #fff;
+    padding: 10px 15px;
+    margin-top:50px ;
+    border: none;
+}
+.contact-form input[type="submit"]:hover{
+    background-color: #404040;  
+    color: #fff   ;
+}
+/*Contact Us Page CSS Ends*/
