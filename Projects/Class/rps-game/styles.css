@@ -10,6 +10,9 @@ h1{
     text-align: center;
     margin-top: 20px;
 }
+button:hover{
+    cursor: pointer;
+}
 button{
     padding: 10px;
     font-size: 1.8rem;
@@ -20,7 +23,7 @@ button{
 }
 p{
     text-align: center;
-    
+    font-weight: bold;
 }
 #rock{
     background-color: orange;
